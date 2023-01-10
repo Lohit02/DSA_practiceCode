@@ -1,4 +1,4 @@
-public class rec1 {
+public class fact {
     static int fact(int n)
     {
         if(n>2)
