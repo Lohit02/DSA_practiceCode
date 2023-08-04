@@ -17,7 +17,7 @@ public class Main {
         btree.insert(new Node(8));
         //btree.display();
         //System.out.println( btree.search(2));
-        btree.levelOrder();
+        
 
 
 

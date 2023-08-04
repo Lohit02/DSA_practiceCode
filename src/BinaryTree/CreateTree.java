@@ -1,5 +1,9 @@
 
 package BinaryTree;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class CreateTree {
 
      Node root;
@@ -96,31 +100,13 @@ public class CreateTree {
         }
         return root.data;
     }
-    private int predecessor(Node root) {//find greatest value below the left child of this root node
+    private int predecessor(Node root) {//find the greatest value below the left child of this root node
         root = root.left;
         while(root.right != null){
             root = root.right;
         }
         return root.data;
     }
-    public void levelOrder(Node root)
-    {
-        if(root==null)
-        {
-            return ;
-        }
-        levelOrder(root.left); System.out.println(root.left.data);
-        levelOrder(root.right);System.out.println(root.right.data);
 
-    }
 
-    public void levelOrder() {
-        while(root!=null)
-        {
-            levelOrder(root.left);
-            System.out.println(root.data);
-            levelOrder(root.right);
-            System.out.println(root.data);
-        }
-    }
 }

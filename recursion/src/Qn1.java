@@ -9,9 +9,9 @@ public class Qn1 {
        // Qn2(5);
       //  System.out.println(  RevDigits(6903));
         //System.out.println(LinearSearch(new int[]{1,2,3,4,5},0,1));
-      //triangle(4,4);
+      triangle(4,4);
         // bubbleSort(new int[]{3,5,1,8,4,7},0,5);
-        System.out.println( Arrays.toString(mergeSort(new int[]{3,5,1,8,4,7})));
+        //System.out.println( Arrays.toString(mergeSort(new int[]{3,5,1,8,4,7})));
     }
     public static int  Qn1(int n)
     {
