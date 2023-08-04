@@ -1,11 +1,11 @@
 package BinaryTree;
 
-public class BinaryNode {
+public class Node {
     int data;
-    public BinaryNode right;
-    public BinaryNode left;
+    public Node right;
+    public Node left;
     public int height;
-    public BinaryNode(int value)
+    public Node(int value)
     {
         this.data=value;
     }

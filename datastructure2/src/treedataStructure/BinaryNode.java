@@ -7,4 +7,7 @@ public class BinaryNode {
     public BinaryNode right;
 
 
+    public BinaryNode(int value) {
+        this.value=value;
+    }
 }

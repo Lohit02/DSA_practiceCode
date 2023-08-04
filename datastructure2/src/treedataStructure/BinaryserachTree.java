@@ -11,7 +11,7 @@ public class BinaryserachTree {
     {
         if(currentNode==null)
         {
-            BinaryNode newNode= new BinaryNode();
+            BinaryNode newNode= new BinaryNode(value);
             newNode.value=value;
             System.out.println("The value successfully inserted");
             return newNode;
