@@ -1,6 +1,6 @@
 public class Fact1 {
     public static void main(String[] args) {
-        System.out.println(Fact1(5));
+        System.out.println(Fact1(3));
     }
 
 
