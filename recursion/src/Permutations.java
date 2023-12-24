@@ -5,7 +5,7 @@ public class Permutations {
 //        ArrayList<String> ans = permutationsList("", "abc");
 //        System.out.println(ans);
 
-        permutations("", "abcd");
+        permutations("", "abc");
     }
 
     static void permutations(String p, String up) {

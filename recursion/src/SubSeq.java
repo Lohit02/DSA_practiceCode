@@ -4,7 +4,7 @@ public class SubSeq {
     public static void main(String[] args) {
 //        subseqAscii("", "abc");
         subseq("", "abc");
-        permutations("","xyz");
+        //permutations("","xyz");
     }
 
     static void subseq(String p, String up) {
